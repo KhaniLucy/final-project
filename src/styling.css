@@ -1,9 +1,17 @@
 * {
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
    }
 
    body {
-    background-image: /media/background.jpg;
+     background-image: url("/media/\ background.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100vw;
    }
    
    h1 {
@@ -30,11 +38,12 @@
    }
    
    .weather-app {
-       margin: 18px auto;
+       margin: 23px auto;
        padding: 67px;
        max-width: 660px;
        border: 2px solid #cecec5;
-       border-radius: 15px;
+       color: #F2F2F2;
+       border-radius: 10px;
        display: block;
        margin-top: 120px;
      }
