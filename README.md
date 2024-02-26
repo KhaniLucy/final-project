@@ -34,7 +34,8 @@ Weather Forescast provides the user with seamless experience to check weather co
 
 Here is a demonstration of how the website works.
 
-[Screen recording 2024-02-22 23.49.11 (1).webm](https://github.com/KhaniLucy/final-project/issues/1#issue-2155244011)
+[Screen recording 2024-02-26 22.30.40.webm](https://github.com/KhaniLucy/final-project/assets/132388392/3856679c-871e-495d-a182-98469dc92350)
+ 
 ## Related
 
 Here are some related projects
