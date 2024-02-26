@@ -1,22 +1,31 @@
 * {
-    font-family: 'Roboto Mono', monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
    }
 
    body {
-     background-image: url("/media/\ background.jpg");
+     background-image: url("/media/photo-1652684322439-677f4c9af327.avif");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
      height: 100vh;
-     width: 100vw;
+     width:  100vw;
+     margin: 0 auto;
+   }
+
+   .title {
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bolder;
+    font-size: 80px;
+    color: #F2F2F2;
    }
    
    h1 {
        font-size: 47px;
-       color: black;
+       color: #F2F2F2;
        font-weight: 150px;
        line-height: 33px;
        padding: 12px;
@@ -30,7 +39,7 @@
    
    li {
        list-style: none;
-       color: black;
+       color: #F2F2F2;
        font-size: 19px;
        line-height: 1;
        font-weight: 100;
@@ -38,14 +47,15 @@
    }
    
    .weather-app {
-       margin: 23px auto;
-       padding: 67px;
-       max-width: 660px;
-       border: 2px solid #cecec5;
+       margin: 0 auto;
+       padding: 40px;
+       padding-top: -15px;
+       max-width: 750px;
+       border: 2px solid #F2A30F;
        color: #F2F2F2;
        border-radius: 10px;
        display: block;
-       margin-top: 120px;
+       margin-top: 40px;
      }
      
      .weather-icon {
@@ -62,10 +72,14 @@
      }
      
      .units {
-       top: -8px;
+       top: -28px;
        position: relative;
-       color: rgb(238, 238, 238);
+       color: #F2A30F;
        font-size: 18px;
+     }
+
+     .units a {
+      color: #F2A30F;
      }
      
      .search-form {
@@ -75,7 +89,17 @@
    p {
        text-align: center;
        font-size: 20px;
-       color: rgb(0, 0, 0);
+       color: #f2f2f2;
+       padding-top: 25px;
+   }
+
+   .source-code {
+    color: #F2A30F;
+   }
+
+   a:hover {
+    color: #F2F2F2;
+    text-decoration: none;
    }
 
    #temperature {
@@ -83,5 +107,5 @@
    }
 
    .weather-forecast-date {
-    color: black;
+    color: #F2F2F2;
    }
