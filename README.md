@@ -1,7 +1,7 @@
  
 ##  Weather Forecast ⛅
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/KhaniLucy/final-project/blob/main/Screenshot%202024-02-26%2009.30.08.png)
 
 
 ## Features
